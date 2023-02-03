@@ -3,17 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "preview": "nuxt start",
+    "start": "node .output/server/index.mjs",
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
-  },
-  "devDependencies": {
-    "@nuxt/types": "^2.15.3",
-    "@nuxt/typescript-build": "^2.1.0"
+    "core-js": "^3.27.2",
+    "nuxt": "^3.1.2"
   }
 }
